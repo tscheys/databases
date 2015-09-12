@@ -1,0 +1,118 @@
+.room-list {
+  width: 240px;
+}
+.room {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+}
+
+main, nav {
+  padding-left: 240px;
+}
+
+.room-logo {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  pointer-events: none;
+  font-family: 'Patua One', cursive;
+}
+
+.room-logo a {
+  font-size: 36px !important; 
+}
+
+.brand-logo {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem !important;
+}
+
+
+.account-circle {
+  color: #26a69a;
+}
+
+.create-room {
+  pointer-events: none;
+  padding: 10px;
+}
+
+.create-room a {
+  pointer-events: all;
+  color: white !important;
+}
+
+.username {
+  margin: 4px 0 0 10px !important;
+  color: #666 !important;
+  font-size: 36px;
+}
+
+.username a {
+  color: inherit ;
+}
+
+.user-row {
+  padding: 15px 0 15px 20px;
+  margin: 0 !important;
+  background-color: #eee;
+}
+
+.input-row {
+  padding: 30px 0 30px 0;
+  background-color: #eee;
+}
+
+.chat-row {
+  margin: 0 !important;
+  padding: 0 20px;
+  height: 590px;
+  max-height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.chat-row p {
+  min-height: 10px;
+}
+
+#sendButton {
+  margin-top: 10px;
+}
+
+#message {
+  margin-right: 43px;
+}
+
+.chat-window {
+  height: 800px;
+  margin-top: 30px;
+  margin-bottom: 0 !important;
+}
+
+.face-col {
+  width: 15%;
+}
+.message-col {
+  width: 85%;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 70px;
+  margin: 12px 0 0 10px;
+  
+}
+
+.selected-room {
+  background-color: #eee;
+}
+
+.room-row {
+  margin: 0 !important;
+}
+
+.user-modal, .room-modal {
+  width: 400px;
+}
