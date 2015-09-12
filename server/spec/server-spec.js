@@ -35,8 +35,6 @@ describe("Persistent Node Chat Server", function() {
     truncate('Users')
       .then(truncate('Messages'))
       .then(truncate('Rooms'))
-      .then(truncate('UsersRooms'))
-      .then(truncate('MessagesRooms'))
       .finally(done);
 
     dbConnection.query('SET FOREIGN_KEY_CHECKS = 1', function(err, res) {

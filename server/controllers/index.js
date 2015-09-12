@@ -2,6 +2,7 @@ var models = require('../models');
 var mysql = require('mysql');
 
 
+
 module.exports = {
   messages: {
     get: function (req, res) {
