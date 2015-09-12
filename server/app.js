@@ -22,11 +22,10 @@ app.use(parser.json());
 app.use("/classes", router);
 
 // Serve the client files
-app.use(express.static(__dirname + "/../client"));
+app.use(express.static(__dirname + "/client"));
 
 // If we are being run directly, run the server.
 if (!module.parent) {
   app.listen(app.get("port"));
   console.log("Listening on", app.get("port"));
 }
-

@@ -7,7 +7,9 @@
   padding: 10px;
   width: 100%;
 }
-
+main{
+  z-index: 1002;
+}
 main, nav {
   padding-left: 240px;
 }

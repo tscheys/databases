@@ -14,7 +14,6 @@
     <script src="bower_components/underscore/underscore-min.js"></script>
     <script src="bower_components/backbone/backbone.js"></script>
     <!-- your scripts -->
-    <script src="env/config.js"></script>
     <script src="scripts/backboned.js"></script>
     <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
   </head>
@@ -27,28 +26,40 @@
     </div>
   </nav>
       <ul class="side-nav fixed room-list">
-      <li class="room-logo"><a class="">Rooms</a></li>
-      <div class="create-room"><a class="waves-effect waves-teal btn modal-trigger create-room" href="#modal2">Create Room</a></div>
-    </ul>
+        <li class="room-logo"><a class="">Rooms</a></li>
+        <div class="create-room"><a class="waves-effect waves-teal btn modal-trigger create-room" href="#modal2">Create Room</a></div>
+      </ul>
     <main>
       <div class="container chat-window">
         <div class="card chat-window">
           <div class="row user-row">
             <i class="material-icons prefix col s1 medium account-circle">perm_identity</i>
             <span class="username col s10"><a class="modal-trigger current-user" href="#modal1">Garrett</a></span>
+            <div id="modal1" class="modal user-modal">
+              <div class="modal-content">
+                <h4>Change username</h4>
+                <input id="user" class="" type="text" placeholder="Username" >
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Accept</a>
+              </div>
+            </div>
           </div>
           <div class="row chat-row">
-            <div class="col face-col">
-              <img class="user-image" src="./images/doge.jpeg">
-            </div>
-            <div class="col message-col">
-              <h5>
-                Chris Yung
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo beatae atque consequatur, molestias at commodi, temporibus sit accusamus tempora consectetur rem magni culpa itaque ipsa blanditiis aliquid? Rem voluptate, earum?
-              </p>
-            <div class="divider"></div>
+            <div class="row">
+              <div class="col face-col">
+                <img class="user-image" src="./images/doge.jpeg">
+              </div>
+              <div class="col message-col">
+                <h5>
+                  Chris Yung
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo beatae atque consequatur, molestias at commodi, temporibus sit accusamus tempora consectetur rem magni culpa itaque ipsa blanditiis aliquid? Rem voluptate, earum?
+                </p>
+              <div class="divider"></div>
+              </div>
+              
             </div>
           </div>
           <div class="row input input-row">

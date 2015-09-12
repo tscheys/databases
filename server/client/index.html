@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>chatterbox</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+    <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- dependencies -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="bower_components/materialize/dist/js/materialize.js"></script>
+    <!-- your scripts -->
+    <script src="scripts/Message.js"></script>
+    <script src="scripts/MessageView.js"></script>
+    <script src="scripts/Messages.js"></script>
+    <script src="scripts/MessagesView.js"></script>
+    <script src="scripts/Room.js"></script>
+    <script src="scripts/RoomView.js"></script>
+    <script src="scripts/Rooms.js"></script>
+    <script src="scripts/RoomsView.js"></script>
+    <script src="scripts/UserView.js"></script>
+    <script src="scripts/FormView.js"></script>
+    <script src="scripts/CardView.js"></script>
+    <script src="scripts/AppView.js"></script>
+    <script src="scripts/app.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Chatterbox</a>
+            <ul id="nav-mobile" class="left">
+            </ul>
+        </div>
+    </nav>
+    <div id="modal2" class="modal room-modal">
+      <div class="modal-content">
+        <h4>Room Name</h4>
+        <input id="room-name" class="" type="text" placeholder="Room name" >
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Create</a>
+      </div>
+    </div>
+</body>
+
+</html>
